@@ -1802,6 +1802,8 @@ footer{
         
         width: 374px;
         height: 248px;
+        display: flex;
+        justify-content: center;
     }
     .blog_post_third_text{
         display: flex;
