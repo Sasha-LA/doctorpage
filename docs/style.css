@@ -1790,6 +1790,9 @@ footer{
         border-radius: 12px;
         width: 374px;
         height: 248px;
+        display: flex;
+        justify-content: center;
+    
         
     }
     .blog_post_hidden_image2{
