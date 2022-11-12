@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         
         
-        $.getJSON('/blog-data.json', function(data){
+        $.getJSON('blog-data.json', function(data){
             //alert(data.text);
             blogPages = data.reverse();  // меняем порядок
             numOfPg = Math.ceil(blogPages.length / 10); //общее колличество 
